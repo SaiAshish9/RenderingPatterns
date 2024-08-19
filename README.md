@@ -1,4 +1,4 @@
-n```
+```
 Rendering Patterns:
 
 1. Client Side Rendering (CSR)
