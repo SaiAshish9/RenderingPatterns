@@ -9,6 +9,8 @@ Rendering Patterns:
   b.1. Fetch Data On Client
   b.2. No Data
 5. Incremental Static Re-Generation (iSSG)
+  a. Auto revalidate
+  b. On Demand
 ```
 
 ```
@@ -85,4 +87,10 @@ Without Data:
 Or else using effect api call, we can have the page loaded then js will be executed for data. We can show skeleton loader and optimize build. 
 For inconsistent data this is good.
 ```
+
+```
+
+```
+
+
 
