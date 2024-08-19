@@ -89,8 +89,33 @@ For inconsistent data this is good.
 ```
 
 ```
+iSSG:
 
+Revalidation
+
+Show the updated data without building whole website
+
+getStaticProps(){
+
+return {
+props: [],
+revalidate: 5 // seconds
+}
+}
+
+after 5 seconds , revalidation happens and new HTML will be generated if api data is changed
 ```
 
+```
+on Demand
+
+revalidate.js
+
+pass the route
+
+token based validation
+
+hit the api upon api data change. From backend we can hit revalidate api.
+```
 
 
