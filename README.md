@@ -57,5 +57,32 @@ Using getServerSideProps in js file of Next.js application, we can include the e
 ```
 
 ```
+SSG
+```
 
+```
+export: next export && next build
+```
+
+```
+we don't to generate a html everytime but it can be accessed via localhost:3000/abc.html from build file. Files can be cached on any CDN. Less dynamic websites. Same for every customer. 
+Blogs
+```
+
+```
+With Data:
+
+using getStaticProps we can have the data. (include API)
+```
+
+```
+npm run export , prefetched on HTML
+```
+
+```
+Without Data:
+
+Or else using effect api call, we can have the page loaded then js will be executed for data. We can show skeleton loader and optimize build. 
+For inconsistent data this is good.
+```
 
